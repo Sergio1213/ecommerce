@@ -4,7 +4,7 @@ Desarrollado por Sergio Galván
 
 Bienvenido a mi ecommerce, una plataforma diseñada para ofrecer una experiencia de compra en línea fácil y agradable. Esta aplicación fue desarrollada utilizando **React**, una biblioteca de JavaScript conocida por su eficiencia y flexibilidad para construir interfaces de usuario interactivas. La aplicacion aun se encuentra en desarrollo
 
-Puedes ver la pagina en este enlace (https://ecommerce-omega-livid.vercel.app)
+Puedes ver la pagina en este enlace https://ecommerce-omega-livid.vercel.app
 
 ## Diseño
 
