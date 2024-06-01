@@ -9,4 +9,4 @@ Bienvenido a mi ecommerce, una plataforma diseñada para ofrecer una experiencia
 El diseño de la interfaz de usuario fue cuidadosamente planificado y ejecutado utilizando **Figma**, una herramienta de diseño colaborativo que nos permitió crear un diseño moderno y cohesivo. Cada elemento visual fue pensado para mejorar la experiencia del usuario y hacer que la navegación sea intuitiva.
 
 ### Enlace al diseño en Figma
-Para ver el diseño de figma [Visita aqui]((https://www.figma.com/design/olIWKMrJlhsrzVuvpdFWIL/Untitled?node-id=0-1&t=DjiBulhqntmI8i60-1)
+Para ver el diseño de figma [Visita aqui](https://www.figma.com/design/olIWKMrJlhsrzVuvpdFWIL/Untitled?node-id=0-1&t=DjiBulhqntmI8i60-1)
