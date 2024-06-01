@@ -68,6 +68,8 @@ npm run dev
 
 ## Test
 
+Las pruebas generadas son del render de 2 componentes, uno que es el de Home que es el mas robusto, y del de login, despues se realizaran las pruebas de respuestas de la apo
+
 Para ejecutar el test tienes que correr el siguiente comando en la consola:
 
 ```bash
