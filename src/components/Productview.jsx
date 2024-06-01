@@ -12,7 +12,9 @@ export default function Productview() {
       );
       try {
         const response = await axios.get(
-          `http://localhost:1337/api/products/${productId}`
+          `http://${
+            import.meta.env.VITE_BACKEND_URL
+          }/api/products/${productId}`
         );
         setProduct(response.data.data.attributes);
       } catch (error) {

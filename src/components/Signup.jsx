@@ -75,7 +75,9 @@ export default function Signup() {
 
     try {
       const response = await axios.post(
-        'http://localhost:1337/api/auth/local/register',
+        `http://${
+          import.meta.env.VITE_BACKEND_URL
+        }/api/auth/local/register`,
 
         {
           email,
@@ -92,7 +94,9 @@ export default function Signup() {
       localStorage.setItem('id', response.data.user.id);
 
       const nresponse = await axios.post(
-        'http://localhost:1337/api/shoppingcarts',
+        `http://${
+          import.meta.env.VITE_BACKEND_URL
+        }/api/shoppingcarts`,
         {
           data: {
             user: parseInt(localStorage.getItem('id')),

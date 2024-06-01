@@ -10,7 +10,7 @@ export default function Login() {
     event.preventDefault();
     try {
       const response = await axios.post(
-        `http://localhost:1337/api/auth/local?=populate*`,
+        `http://${import.meta.env.VITE_BACKEND_URL}/api/auth/local`,
         {
           identifier: email,
           password,
@@ -26,8 +26,11 @@ export default function Login() {
       const userid = localStorage.getItem('id');
 
       const response2 = await axios.get(
-        `http://localhost:1337/api/shoppingcarts?filters[user][id][$eq]=${userid}&fields[0]=id`
+        `http://${
+          import.meta.env.VITE_BACKEND_URL
+        }/api/shoppingcarts?filters[user][id][$eq]=${userid}&fields[0]=id`
       );
+      window.location.replace('/home');
       localStorage.setItem('cartid', response2.data.data[0].id);
 
       window.location.replace('/home');
