@@ -1,8 +1,11 @@
-# React + Vite
+# Ecommerce con react
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Desarrollado por Sergio Galván
 
-Currently, two official plugins are available:
+Bienvenido a mi ecommerce, una plataforma diseñada para ofrecer una experiencia de compra en línea fácil y agradable. Esta aplicación fue desarrollada utilizando **React**, una biblioteca de JavaScript conocida por su eficiencia y flexibilidad para construir interfaces de usuario interactivas. La aplicacion aun se encuentra en desarrollo pero ya tiene algunas funcioalidades 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Diseño
+
+El diseño de la interfaz de usuario fue cuidadosamente planificado y ejecutado utilizando **Figma**, una herramienta de diseño colaborativo que nos permitió crear un diseño moderno y cohesivo. Cada elemento visual fue pensado para mejorar la experiencia del usuario y hacer que la navegación sea intuitiva.
+
+### Enlace al diseño en Figma
