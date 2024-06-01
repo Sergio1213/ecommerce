@@ -10,7 +10,7 @@ export default function Login() {
     event.preventDefault();
     try {
       const response = await axios.post(
-        `https://${import.meta.env.VITE_BACKEND_URL}/api/auth/local`,
+        `https:/mindful-cow-3686af92a7.strapiapp.com/api/auth/local`,
         {
           identifier: email,
           password,
