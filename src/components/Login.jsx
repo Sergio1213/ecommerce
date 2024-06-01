@@ -26,7 +26,7 @@ export default function Login() {
       const userid = localStorage.getItem('id');
 
       const response2 = await axios.get(
-        `http://${
+        `https://${
           import.meta.env.VITE_BACKEND_URL
         }/api/shoppingcarts?filters[user][id][$eq]=${userid}&fields[0]=id`
       );
