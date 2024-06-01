@@ -26,14 +26,10 @@ export default function Login() {
       const userid = localStorage.getItem('id');
 
       const response2 = await axios.get(
-        `https://${
-          import.meta.env.VITE_BACKEND_URL
-        }/api/shoppingcarts?filters[user][id][$eq]=${userid}&fields[0]=id`
+        `https://mindful-cow-3686af92a7.strapiapp.com/api/shoppingcarts?filters[user][id][$eq]=${userid}&fields[0]=id`
       );
       window.location.replace('/home');
       localStorage.setItem('cartid', response2.data.data[0].id);
-
-      window.location.replace('/home');
     } catch (error) {
       alert(error.response.data.error.message);
       console.error('Error al iniciar sesion:', error);
