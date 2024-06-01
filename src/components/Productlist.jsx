@@ -9,7 +9,7 @@ export default function Productlist() {
     async function fetchProducts() {
       try {
         const response = await axios.get(
-          `https://${import.meta.env.VITE_BACKEND_URL}/api/products`
+          `https://mindful-cow-3686af92a7.strapiapp.com/api/products`
         );
         setProducts(response.data.data);
       } catch (error) {

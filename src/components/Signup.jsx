@@ -75,9 +75,7 @@ export default function Signup() {
 
     try {
       const response = await axios.post(
-        `http://${
-          import.meta.env.VITE_BACKEND_URL
-        }/api/auth/local/register`,
+        `http://mindful-cow-3686af92a7.strapiapp.com/api/auth/local/register`,
 
         {
           email,
