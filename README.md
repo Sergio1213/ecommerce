@@ -36,3 +36,33 @@ Este proyecto de ecommerce se encuentra en desarrollo y tiene como objetivo prop
 - Realizar pruebas exhaustivas para garantizar el correcto funcionamiento de todas las funcionalidades implementadas.
 
 Este proyecto se encuentra en constante desarrollo y se están realizando mejoras continuas para ofrecer una experiencia de compra en línea fluida y satisfactoria para los usuarios.
+
+# Instalación y Ejecución del Proyecto Ecommerce en React con Vite
+
+## Instalación
+
+1. **Clona el repositorio desde GitHub:**
+
+   ```bash
+   git clone https://github.com/Sergio1213/ecommerce.git
+   ```
+   
+2. **Navega hasta el directorio del proyecto:**
+
+   ```bash
+   cd ecommerce
+   ```
+
+3. **Instala las dependencias utilizando npm:**
+   
+     ```bash
+   npm install
+   ```
+## Ejecución
+
+Una vez que todas las dependencias estén instaladas, puedes ejecutar el proyecto utilizando el siguiente comando:
+
+```bash
+npm run dev
+```
+   
