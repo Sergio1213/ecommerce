@@ -1,19 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom'; // Importa Link desde react-router-dom
-
+import Spinner from './Spinner';
 export default function Productlist() {
   const [products, setProducts] = useState([]);
-
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
     async function fetchProducts() {
       try {
         const response = await axios.get(
           `https://mindful-cow-3686af92a7.strapiapp.com/api/products`
         );
+
         setProducts(response.data.data);
+        setLoading(false);
       } catch (error) {
         console.error('Error fetching products:', error);
+        setLoading(false);
       }
     }
 
@@ -24,7 +27,9 @@ export default function Productlist() {
     // Almacena el ID del producto en localStorage al hacer clic
     localStorage.setItem('productId', productId);
   };
-
+  if (loading) {
+    return <Spinner />; // Muestra la animación de carga mientras se espera la respuesta
+  }
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-2xl px-2 py-2 sm:px-2 sm:py-2 lg:max-w-7xl lg:px-8">
