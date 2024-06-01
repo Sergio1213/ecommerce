@@ -49,7 +49,7 @@ export default function Signup() {
       case 'phone':
         if (!value) {
           error = 'Celular es requerido';
-        } else if (/^\d{9}$/.test(value)) {
+        } else if (/^\d{8}$/.test(value)) {
           console.log();
           error = 'El formato del celular debe ser 123-456-7890';
         }
@@ -140,7 +140,7 @@ export default function Signup() {
     }
     if (!phone) {
       validationErrors.phone = 'Celular es requerido';
-    } else if (/^\d{9}$/.test(phone)) {
+    } else if (/^\d{8}$/.test(phone)) {
       validationErrors.phone =
         'El formato del celular debe ser 123-456-7890';
     }
