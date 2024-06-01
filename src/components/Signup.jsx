@@ -49,9 +49,9 @@ export default function Signup() {
       case 'phone':
         if (!value) {
           error = 'Celular es requerido';
-        } else if (/^\d{8}$/.test(value)) {
+        } else if (/^\d{1,8}$/.test(value)) {
           console.log();
-          error = 'El formato del celular debe ser 123-456-7890';
+          error = 'Solo se aceptan 9 digitos';
         }
         break;
       default:
@@ -138,9 +138,8 @@ export default function Signup() {
     }
     if (!phone) {
       validationErrors.phone = 'Celular es requerido';
-    } else if (/^\d{8}$/.test(phone)) {
-      validationErrors.phone =
-        'El formato del celular debe ser 123-456-7890';
+    } else if (/^\d{1,8}$/.test(phone)) {
+      validationErrors.phone = 'Solo se aceptan 9 digitos';
     }
     return validationErrors;
   };
@@ -349,7 +348,7 @@ export default function Signup() {
               className={`peer-focus:font-medium absolute text-sm ${
                 errors.phone ? 'text-red-500' : 'text-gray-500'
               } duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6`}>
-              Celular (123-456-7890)
+              Celular (9 digitos)
             </label>
             {errors.phone && (
               <p className="text-red-500 text-xs mt-1">
