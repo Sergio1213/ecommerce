@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import Login from './Login';
 
-describe('Login', () => {
+describe('App', () => {
   it('renders the App component', () => {
     render(<Login />);
 

@@ -1,9 +1,9 @@
 import { render, screen } from '@testing-library/react';
-import Productlist from './Productlist';
+import Home from './Home';
 
-describe('Home', () => {
+describe('App', () => {
   it('renders the App component', () => {
-    render(<Productlist />);
+    render(<Home />);
 
     screen.debug(); // prints out the jsx in the App component unto the command line
   });
