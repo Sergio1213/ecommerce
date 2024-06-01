@@ -65,4 +65,11 @@ Una vez que todas las dependencias estén instaladas, puedes ejecutar el proyect
 ```bash
 npm run dev
 ```
-   
+
+## Test
+
+Para ejecutar el test tienes que correr el siguiente comando en la consola:
+
+```bash
+npm run test
+```
