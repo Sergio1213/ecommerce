@@ -9,7 +9,7 @@ export default function Productlist() {
     async function fetchProducts() {
       try {
         const response = await axios.get(
-          `http://${import.meta.env.VITE_BACKEND_URL}/api/products`
+          `https://${import.meta.env.VITE_BACKEND_URL}/api/products`
         );
         setProducts(response.data.data);
       } catch (error) {

@@ -94,7 +94,7 @@ export default function Signup() {
       localStorage.setItem('id', response.data.user.id);
 
       const nresponse = await axios.post(
-        `http://${
+        `https://${
           import.meta.env.VITE_BACKEND_URL
         }/api/shoppingcarts`,
         {

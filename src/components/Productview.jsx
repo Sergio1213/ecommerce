@@ -12,7 +12,7 @@ export default function Productview() {
       );
       try {
         const response = await axios.get(
-          `http://${
+          `https://${
             import.meta.env.VITE_BACKEND_URL
           }/api/products/${productId}`
         );

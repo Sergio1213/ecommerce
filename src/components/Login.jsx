@@ -10,7 +10,7 @@ export default function Login() {
     event.preventDefault();
     try {
       const response = await axios.post(
-        `http://${import.meta.env.VITE_BACKEND_URL}/api/auth/local`,
+        `https://${import.meta.env.VITE_BACKEND_URL}/api/auth/local`,
         {
           identifier: email,
           password,
