@@ -75,7 +75,7 @@ export default function Signup() {
 
     try {
       const response = await axios.post(
-        `http://mindful-cow-3686af92a7.strapiapp.com/api/auth/local/register`,
+        `https://mindful-cow-3686af92a7.strapiapp.com/api/auth/local/register`,
 
         {
           email,
@@ -92,9 +92,7 @@ export default function Signup() {
       localStorage.setItem('id', response.data.user.id);
 
       const nresponse = await axios.post(
-        `https://${
-          import.meta.env.VITE_BACKEND_URL
-        }/api/shoppingcarts`,
+        `https://mindful-cow-3686af92a7.strapiapp.com}/api/shoppingcarts`,
         {
           data: {
             user: parseInt(localStorage.getItem('id')),
