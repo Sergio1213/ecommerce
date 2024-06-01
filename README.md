@@ -35,7 +35,6 @@ Este proyecto de ecommerce se encuentra en desarrollo y tiene como objetivo prop
 
 - Realizar pruebas exhaustivas para garantizar el correcto funcionamiento de todas las funcionalidades implementadas.
 
-Este proyecto se encuentra en constante desarrollo y se están realizando mejoras continuas para ofrecer una experiencia de compra en línea fluida y satisfactoria para los usuarios.
 
 # Instalación y Ejecución del Proyecto Ecommerce en React con Vite
 
