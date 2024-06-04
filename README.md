@@ -13,6 +13,9 @@ El diseño de la interfaz de usuario fue cuidadosamente planificado y ejecutado 
 ### Enlace al diseño en Figma
 Para ver el diseño de figma [Visita aqui](https://www.figma.com/design/olIWKMrJlhsrzVuvpdFWIL/Untitled?node-id=0-1&t=DjiBulhqntmI8i60-1)
 
+### Enlace de repositorio de backend
+Para ver el diseño de figma [Visita aqui](https://github.com/Sergio1213/inventario.git)
+
 Este proyecto de ecommerce se encuentra en desarrollo y tiene como objetivo proporcionar una plataforma para la compra de camisas en línea. Actualmente, se han implementado las funcionalidades básicas de inicio de sesión, registro de usuarios, vista de detalles de productos y una página de inicio donde se muestran todas las camisas disponibles.
 
 ## Funcionalidades Implementadas
